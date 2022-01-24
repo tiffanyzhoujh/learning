@@ -7,10 +7,93 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css">
-    <title>ITI</title>
+    <title>Learning Tailwind</title>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+
+
+  <body class="bg-gray-100">
+
+
+    <div class="flex flex-col items-center py-20">
+
+        <script type="module" src="/src/main.js"></script>
+        
+        <div class="flex items-center h-15 ">
+          <img src="/logos/icons8-a-80.png" class="h-20 px-2">
+          <p class="font-bold text-3xl">
+            测试应用
+          </p>
+        </div>
+
+        <div class="py-8">
+          <p>
+            请选择登录平台
+          </p>
+        </div>
+
+        <div class="bg-white 
+        w-80 h-15 
+        flex items-center my-2 py-2
+        cursor-pointer
+        shadow-lg hover:shadow-xl transition">
+          <img src="/logos/icons8-bell-150.png" class="h-10 px-5">
+          <p class="font-bold text-xl text-blue-600 pl-5">
+            钉钉
+          </p>
+          <img src="/logos/icons8-qr-code-64.png" class="h-7 pl-20">
+        </div>
+
+        <div></div>
+
+        <div class="bg-white 
+        w-80 h-15 
+        flex items-center my-2 py-2
+        cursor-pointer
+        shadow-lg hover:shadow-xl transition">
+          <img src="/logos/icons8-qq-96.png" class="h-10 px-5">
+          <p class="font-bold text-xl text-red-600 px-5">
+            QQ
+          </p>
+        </div>
+
+        <div class="bg-white 
+        w-80 h-15 
+        flex items-center my-2 py-2
+        cursor-pointer
+        shadow-lg hover:shadow-xl transition">
+          <img src="/logos/icons8-github-90.png" class="h-10 px-5">
+          <p class="font-bold text-xl px-5">
+            Github
+          </p>
+        </div>
+
+        <div class="bg-white 
+        w-80 h-15 
+        flex items-center my-2 py-2
+        cursor-pointer
+        shadow-lg hover:shadow-xl transition">
+          <img src="/logos/icons8-hourglass-256.png" class="h-10 px-5">
+          <p class="font-bold text-xl px-5">
+            学生事务系统
+          </p>
+        </div>
+
+        <div class="bg-white 
+        w-80 h-15 
+        flex items-center my-2 py-2
+        cursor-pointer
+        shadow-lg
+        hover:shadow-xl">
+          <img src="/logos/icons8-phone-80.png" class="h-10 px-5">
+          <p class="font-bold text-xl px-5">
+            手机号
+          </p>
+        </div>
+
+
+
+
+      </div>
+
   </body>
 </html>
